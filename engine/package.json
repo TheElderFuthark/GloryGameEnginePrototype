@@ -1,0 +1,21 @@
+{
+  "name": "engine",
+  "version": "1.0.0",
+  "scripts": {
+    "compile-engine": "tsc webpack.config.ts && C:/Emscripten/emsdk/emsdk/upstream/emscripten/em++ source/engine.cpp -o out/engine.out.js",
+    "build-engine": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.12.0",
+    "@types/webpack": "^5.28.5",
+    "crypto-browserify": "^3.12.1",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
